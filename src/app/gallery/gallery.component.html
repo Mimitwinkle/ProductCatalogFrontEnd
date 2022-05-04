@@ -1,0 +1,12 @@
+<div class="card-deck">
+  <div class="card" *ngFor="let product of products" style="width: 18rem;">
+    <img class="card-img-top" src="https://bootstrapious.com/i/snippets/sn-cards/shoes-1_gthops.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{product.name}}</h5>
+      <p class="card-text">{{product.description}}</p>
+      <p><b>${{product.price}}</b></p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
